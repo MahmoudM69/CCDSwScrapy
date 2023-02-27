@@ -1,0 +1,36 @@
+1- Create a venv:
+        
+        * python -m venv venv
+
+
+2- Activate the venv:
+        
+        * cd venv
+        * cd Scripts
+        * activate
+
+
+3- Install Scrapy:
+        
+        * pipenv install Scrapy
+
+
+4- Add genes URLs:
+
+        * Open the scrapy project "CCDSwScrapy":
+                * cd Scrapy
+                * cd CCDSwScrapy
+
+        * Open the crawlers folder "spiders":
+                * cd spiders
+                
+        * Open Spidey.py
+        * Add your urls in "start_urls"
+
+5- Run scrapy spider and output the results:
+
+        * Navigate back to "CCDSwScrapy":
+                * cd..
+        
+        * Type this command in the terminal:
+                * scrapy crawl Parker -o results.json
