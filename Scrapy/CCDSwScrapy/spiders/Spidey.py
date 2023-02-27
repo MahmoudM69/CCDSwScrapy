@@ -23,7 +23,9 @@ class Spidey(scrapy.Spider):
 
 
     start_urls = [
-
+        # example
+        "https://www.ncbi.nlm.nih.gov/gene/207/",
+        "https://www.ncbi.nlm.nih.gov/gene/324/",
     ]
 
 
